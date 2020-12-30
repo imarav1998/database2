@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create</title>
+</head>
+<body>
+    <form action="<?php echo htmlspecialchar($_SERVER['PHP_SELF']);" onsubmit = "return valid()">
+        <input type="text" name="name" placeholder="name">
+        <input type="email" name="email" placeholder="email">
+        <input type="checkbox" name = "php" value="php">
+        <input type="checkbox" name="html" value="html">
+        <input type="checkbox" name = "js" value="js">
+        <input type="checkbox" name="css" value="css">
+    </form>
+</body>
+</html>
